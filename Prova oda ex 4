@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class cubo { public static void main(String[] args)
+{ Scanner scanner = new Scanner(System.in);
+    System.out.print("Digite um número: ");
+    double numero = scanner.nextDouble();
+    double quadrado = Math.pow(numero, 2);
+    double cubo = Math.pow(numero, 3);
+    System.out.printf("O número ao quadrado é: %.2f\n", quadrado);
+    System.out.printf("O número ao cubo é: %.2f\n", cubo);
+    scanner.close();
+  }
+}
